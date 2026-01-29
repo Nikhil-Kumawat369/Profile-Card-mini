@@ -1,0 +1,116 @@
+* {
+    padding : 0px ;
+    margin : 0px ;
+    font-family : 'Roboto' ;
+}
+
+body {
+    background-color : #0f172a ;
+    min-height : 100vh ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content : center ;
+    align-items : center ;
+}
+
+#topCard {
+    background-color : #1e3a8a ;
+    height : 150px ;
+    width : 350px ;
+    border-radius : 25px 25px 0px 0px / 25px 25px 0px 0px ;
+    position : absolute ;
+    z-index : 2 ;
+}
+
+#fullCard {
+    background-color : #ffffff ;
+    height : 400px ;
+    width : 350px ;
+    border-radius : 25px ;
+    position : absolute ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content : center ;
+}
+
+#myPic {
+    border : 4px solid #ffffff ;
+    outline : 4px solid #1e3a8a ;
+    border-radius : 50% ;
+    margin-top : 30px ;
+    position : absolute ;
+    z-index : 3 ;
+}
+
+#name {
+    font-size : 20px ;
+    font-weight : bold ;
+    margin-top : 185px ;
+    position : absolute ;
+    z-index : 2 ;
+}
+
+#profession {
+    margin-top : 210px ;
+    position : absolute ;
+    z-index : 2 ;
+}
+
+#icons {
+    min-width : 160px ;
+    margin-top : 240px ;
+    position : absolute ;
+    z-index : 2 ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content : space-between ;
+}
+
+.links {
+    border-radius : 50% ;
+}
+
+#buttons {
+    min-width : 270px ;
+    margin-top : 290px ;
+    position : absolute ;
+    z-index : 2 ;
+    display : flex ;
+    flex-direction : row ;
+    justify-content : space-between ;
+}
+
+.but {
+    color : white ;
+    background-color : #1e3a8a ;
+    height : 30px ;
+    width : 120px ;
+    border-radius : 15% / 50% ;
+}
+
+#end {
+    margin-top : 335px ;
+    position : absolute ;
+    z-index : 2 ;
+    display : flex ;
+    flex-direction : row ;
+    align-content : center ;
+}
+
+.End {
+    border-radius : 50% ;
+}
+
+.numbers {
+    font-size : 20px ;
+    display : inline-block ; 
+    padding-right : 10px ; 
+    border-right : 2px solid grey ; 
+    margin-left : 10px ; 
+    margin-right : 10px ;
+}
+
+#last {
+    border : none ;
+    padding-right : 0px ;
+}
