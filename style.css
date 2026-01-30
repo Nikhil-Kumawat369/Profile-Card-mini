@@ -114,3 +114,29 @@ body {
     border : none ;
     padding-right : 0px ;
 }
+
+/*Adding transformation properties*/
+
+#fullCard {
+    transition : all 2s ease-in-out 0s ;
+}
+
+#fullCard:hover {
+    transform : scale(1.05) ;
+    box-shadow : 0px 0px 60px 0px #ffffff ;
+}
+
+.links:hover {
+    transform : scale(1.05) ;
+    box-shadow : 0px 0px 10px 4px #1e3a8a ;
+}
+
+.but:hover {
+    box-shadow : 2px 4px 8px 0px rgba(0 , 0 , 0 , 0.75)
+}
+
+.but:active {
+    box-shadow : inset 2px 4px 8px 0px rgba(0 , 0 , 0 , 0.75) ;
+    background-color : rgb(47, 68, 140) ;
+    transform: translateY(2px);
+}
