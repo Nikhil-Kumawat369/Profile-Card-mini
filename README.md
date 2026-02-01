@@ -5,6 +5,13 @@ This project displays a personal profile card with social media links, action bu
 
 ---
 
+## 🌐 Live Demo
+
+🔗 **Deployed here:**  
+https://nikhil-kumawat369.github.io/Profile-Card-mini/
+
+---
+
 ## 📸 Preview
 
 This project creates a centered profile card with:
